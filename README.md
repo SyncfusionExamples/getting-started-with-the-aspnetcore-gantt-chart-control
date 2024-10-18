@@ -12,7 +12,7 @@ A quick start project that shows how to add Syncfusion's ASP.NET Core Gantt Char
 
 ## How to run the project
 
-* Check out this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
+* Check out this project to a location on your machine.
+* Open the solution file using Visual Studio 2022.
 * Restore the NuGet packages by rebuilding the solution.
 * Run the project.
