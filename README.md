@@ -1,18 +1,52 @@
-# Getting Started with the ASP.NET Core Gantt Chart Control
+# ASP.NET Core Gantt Chart Example
 
-A quick start project that shows how to add Syncfusion's ASP.NET Core Gantt Chart control to the ASP.NET Core project. This project contains code snippet to populate data source, as well as some important features like setting timeline views, column customization and task dependencies.
+A Razor Pages sample showing Syncfusion ASP.NET Core Gantt chart integration with hierarchical tasks, dependencies, and custom columns.
 
-**Examples**: https://ej2aspnetcore.azurewebsites.net/aspnetcore/gantt/overview#/bootstrap5 
+## Overview
 
-**Documentation**: https://ej2.syncfusion.com/aspnetcore/documentation/gantt/getting-started 
+This project demonstrates a Syncfusion Gantt chart in an ASP.NET Core Razor Pages application. It uses a local task data source with nested subtasks and configures a weekly timeline.
+
+## Features
+
+- Hierarchical tasks and subtasks
+- Predecessor-based task dependencies
+- Weekly timeline view
+- Custom columns and task progress
 
 ## Prerequisites
 
-* Visual Studio 2022
+- .NET 8 SDK
+- Visual Studio 2022 or later
+- Syncfusion ASP.NET Core license key
 
-## How to run the project
+## Setup
 
-* Check out this project to a location on your machine.
-* Open the solution file using Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+1. Open `Program.cs`.
+2. Replace `"Your License Key"` in `Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(...)`.
+3. Restore NuGet packages by rebuilding the solution.
+
+## Run
+
+1. Open `GanttExample.sln`.
+2. Build and run.
+3. View the chart on the home page.
+
+## Implementation
+
+- The `<ejs-gantt>` component is configured in `Pages/Index.cshtml`.
+- The data source uses `GanttDataSource` objects and nested `SubTasks`.
+- Dependencies use `Predecessor` and `dependency="Predecessor"`.
+- Timeline mode is `Week`.
+
+## Package
+
+- `Syncfusion.EJ2.AspNet.Core` version `27.1.52`
+
+## Notes
+
+- A valid Syncfusion license key is required.
+
+## References
+
+- https://ej2.syncfusion.com/aspnetcore/documentation/gantt/getting-started
+- https://ej2aspnetcore.azurewebsites.net/aspnetcore/gantt/overview#/bootstrap5
