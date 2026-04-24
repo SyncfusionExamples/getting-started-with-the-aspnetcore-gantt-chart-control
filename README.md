@@ -1,52 +1,41 @@
 # ASP.NET Core Gantt Chart Example
 
-A Razor Pages sample showing Syncfusion ASP.NET Core Gantt chart integration with hierarchical tasks, dependencies, and custom columns.
+A Razor Pages sample showing how to integrate the Syncfusion ASP.NET Core Gantt Chart with hierarchical tasks, dependencies, and configurable columns.
 
-## Overview
+## Repository Description
 
-This project demonstrates a Syncfusion Gantt chart in an ASP.NET Core Razor Pages application. It uses a local task data source with nested subtasks and configures a weekly timeline.
+This repository provides an ASP.NET Core example demonstrating how to configure and render the Syncfusion Gantt Chart using local task data with nested subtasks and scheduling relationships.
 
 ## Features
 
-- Hierarchical tasks and subtasks
-- Predecessor-based task dependencies
-- Weekly timeline view
-- Custom columns and task progress
+- Hierarchical tasks with parent and child relationships
+- Predecessor‑based task dependency visualization
+- Weekly timeline view configuration
+- Custom column definitions for task information
+- Task progress display using local data binding
 
 ## Prerequisites
 
-- .NET 8 SDK
-- Visual Studio 2022 or later
-- Syncfusion ASP.NET Core license key
+- .NET SDK (8.0 or later)
+- Visual Studio or a compatible ASP.NET Core development environment
 
-## Setup
+## Getting Started
 
-1. Open `Program.cs`.
-2. Replace `"Your License Key"` in `Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(...)`.
-3. Restore NuGet packages by rebuilding the solution.
+### Build and Run
 
-## Run
+1. Open the solution file in your development environment.
+2. Restore NuGet packages.
+3. Build and run the application.
+4. Navigate to the home page to view the Gantt Chart.
 
-1. Open `GanttExample.sln`.
-2. Build and run.
-3. View the chart on the home page.
+## Implementation Details
 
-## Implementation
-
-- The `<ejs-gantt>` component is configured in `Pages/Index.cshtml`.
-- The data source uses `GanttDataSource` objects and nested `SubTasks`.
-- Dependencies use `Predecessor` and `dependency="Predecessor"`.
-- Timeline mode is `Week`.
-
-## Package
-
-- `Syncfusion.EJ2.AspNet.Core` version `27.1.52`
-
-## Notes
-
-- A valid Syncfusion license key is required.
+- The Gantt Chart component is configured in `Pages/Index.cshtml`.
+- Task data is defined using a local data model with nested `SubTasks`.
+- Dependencies are mapped using the `Predecessor` field.
+- The timeline is configured to display data in a weekly view.
 
 ## References
 
-- https://ej2.syncfusion.com/aspnetcore/documentation/gantt/getting-started
-- https://ej2aspnetcore.azurewebsites.net/aspnetcore/gantt/overview#/bootstrap5
+- Getting started documentation: https://ej2.syncfusion.com/aspnetcore/documentation/gantt/getting-started
+- Component overview: https://ej2.syncfusion.com/aspnetcore/gantt/overview#/bootstrap5
