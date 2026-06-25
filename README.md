@@ -1,6 +1,6 @@
 # ASP.NET Core Gantt Chart Example
 
-A Razor Pages sample showing how to integrate the Syncfusion ASP.NET Core Gantt Chart with hierarchical tasks, dependencies, and configurable columns.
+A Razor Pages sample showing how to integrate the Syncfusion [ASP.NET Core Gantt Chart](https://www.syncfusion.com/aspnet-core-ui-controls/gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=aspnetcore-gantt-chart-github-samples) with hierarchical tasks, dependencies, and configurable columns.
 
 ## Repository Description
 
@@ -9,10 +9,10 @@ This repository provides an ASP.NET Core example demonstrating how to configure 
 ## Features
 
 - Hierarchical tasks with parent and child relationships
-- Predecessor‑based task dependency visualization
-- Weekly timeline view configuration
-- Custom column definitions for task information
-- Task progress display using local data binding
+- Predecessor‑based [task dependency](https://ej2.syncfusion.com/aspnetcore/documentation/gantt/task-dependency?utm_source=github&utm_medium=listing&utm_campaign=aspnetcore-gantt-chart-github-samples) visualization
+- Weekly [timeline view](https://ej2.syncfusion.com/aspnetcore/documentation/gantt/time-line/time-line#timeline-view-modes?utm_source=github&utm_medium=listing&utm_campaign=aspnetcore-gantt-chart-github-samples) configuration
+- Custom [column](https://ej2.syncfusion.com/aspnetcore/documentation/gantt/columns/columns?utm_source=github&utm_medium=listing&utm_campaign=aspnetcore-gantt-chart-github-samples) definitions for task information
+- Task progress display using [local data binding](https://ej2.syncfusion.com/aspnetcore/documentation/gantt/data-binding#local-data?utm_source=github&utm_medium=listing&utm_campaign=aspnetcore-gantt-chart-github-samples)
 
 ## Prerequisites
 
