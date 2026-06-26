@@ -1,6 +1,6 @@
 # ASP.NET Core Gantt Chart Example
 
-A Razor Pages sample showing how to integrate the Syncfusion ASP.NET Core Gantt Chart with hierarchical tasks, dependencies, and configurable columns.
+A Razor Pages sample showing how to integrate the [ASP.NET Core Gantt Chart](https://www.syncfusion.com/aspnet-core-ui-controls/gantt-chart) with hierarchical tasks, dependencies, and configurable columns.
 
 ## Repository Description
 
@@ -37,5 +37,6 @@ This repository provides an ASP.NET Core example demonstrating how to configure 
 
 ## References
 
-- Getting started documentation: https://ej2.syncfusion.com/aspnetcore/documentation/gantt/getting-started
-- Component overview: https://ej2.syncfusion.com/aspnetcore/gantt/overview#/bootstrap5
+- [Explore ASP.NET Core Gantt Chart](https://www.syncfusion.com/aspnet-core-ui-controls/gantt-chart)
+- [ASP.NET Core Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/aspnetcore/documentation/gantt/getting-started)
+- [ASP.NET Core Gantt Chart Live Demos](https://ej2.syncfusion.com/aspnetcore/gantt/default#/fluent2)
