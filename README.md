@@ -37,6 +37,6 @@ This repository provides an ASP.NET Core example demonstrating how to configure 
 
 ## References
 
-- [Explore ASP.NET Core Gantt Chart](https://www.syncfusion.com/aspnet-core-ui-controls/gantt-chart)
-- [ASP.NET Core Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/aspnetcore/documentation/gantt/getting-started)
-- [ASP.NET Core Gantt Chart Live Demos](https://ej2.syncfusion.com/aspnetcore/gantt/default#/fluent2)
+- [Explore ASP.NET Core Gantt Chart](https://www.syncfusion.com/aspnet-core-ui-controls/gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=aspnetcore-gantt-chart-github-samples)
+- [ASP.NET Core Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/aspnetcore/documentation/gantt/getting-started?utm_source=github&utm_medium=listing&utm_campaign=aspnetcore-gantt-chart-github-samples)
+- [ASP.NET Core Gantt Chart Live Demos](https://ej2.syncfusion.com/aspnetcore/gantt/default#/bootstrap5?utm_source=github&utm_medium=listing&utm_campaign=aspnetcore-gantt-chart-github-samples)
